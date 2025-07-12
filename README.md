@@ -4,6 +4,4 @@
 - LinkedIn: [nazmurrahmanemon](https://www.linkedin.com/in/nazmurrahmanemon/)
 - Location: Dhaka, Bangladesh
 
----
 
-*Portfolio website built with modern web technologies and best practices.*
