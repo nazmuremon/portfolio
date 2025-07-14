@@ -1,0 +1,29 @@
+{
+  "name": "mohammad-emon-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Mohammad Nazmur Rahman Emon",
+  "main": "index.html",
+  "scripts": {
+    "dev": "http-server -p 8000 -c-1",
+    "build": "echo 'No build process needed for static site'",
+    "start": "http-server -p 8000 -c-1"
+  },
+  "keywords": [
+    "portfolio",
+    "electrical-engineering",
+    "robotics",
+    "electronics",
+    "arduino",
+    "circuit-design"
+  ],
+  "author": "Mohammad Nazmur Rahman Emon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/mohammad-emon-portfolio.git"
+  },
+  "homepage": "https://username.github.io/mohammad-emon-portfolio/",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

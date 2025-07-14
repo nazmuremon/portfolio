@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects - Mohammad Nazmur Rahman Emon's engineering projects including robotics, electronics, and innovative solutions.">
+    <meta name="keywords" content="Projects, Robotics, Electronics, Arduino, Circuit Design, Engineering">
+    <meta name="author" content="Mohammad Nazmur Rahman Emon">
+    <title>Projects - Mohammad Nazmur Rahman Emon</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="projects-page">
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+        <span class="sun-icon">☀️</span>
+        <span class="moon-icon">🌙</span>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav-menu" id="navMenu">
+        <div class="nav-header">
+            <h3>Portfolio</h3>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">About Me</a></li>
+            <li><a href="education-experience.html" class="nav-link">Education & Experience</a></li>
+            <li><a href="projects.html" class="nav-link active">Projects</a></li>
+            <li><a href="awards.html" class="nav-link">Awards</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Projects</h1>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Automatic Power Factor Corrector and Monitor Device</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: block;">
+                            <!-- Add project description here later, also change display: none to display: block -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/pf1.webp" alt="Power Factor Corrector" class="project-image lazy-image">
+                            <video controls class="project-video lazy-video" data-src="images/pf2.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video controls class="project-video lazy-video" data-src="images/pf3.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">AUST Mars Rover</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/amr1.webp" alt="Mars Rover 1" class="project-image lazy-image">
+                            <img data-src="images/amr2.webp" alt="Mars Rover 2" class="project-image lazy-image">
+                            <img data-src="images/amr3.webp" alt="Mars Rover 3" class="project-image lazy-image">
+                            <img data-src="images/amr4.webp" alt="Mars Rover 4" class="project-image lazy-image">
+                            <video controls class="project-video lazy-video" data-src="images/amr5.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video controls class="project-video lazy-video" data-src="images/amr6.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Flood Relief and Rescue Bot</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/fl1.webp" alt="Flood Relief Bot 1" class="project-image lazy-image">
+                            <img data-src="images/fl2.webp" alt="Flood Relief Bot 2" class="project-image lazy-image">
+                            <img data-src="images/fl3.webp" alt="Flood Relief Bot 3" class="project-image lazy-image">
+                        </div>
+                        <div class="project-link">
+                            <a href="https://aust.edu/news/2476" target="_blank" rel="noopener noreferrer">View News Article</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Robotics Hand for Industrial Automation</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <video controls class="project-video lazy-video" data-src="images/rh1.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video controls class="project-video lazy-video" data-src="images/rh2.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Puzzle Solving Robot</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/ps1.webp" alt="Puzzle Solving Robot 1" class="project-image lazy-image">
+                            <img data-src="images/ps2.webp" alt="Puzzle Solving Robot 2" class="project-image lazy-image">
+                            <video controls class="project-video lazy-video" data-src="images/ps3.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">AC Dimmer Circuit</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/ad1.webp" alt="AC Dimmer Circuit 1" class="project-image lazy-image">
+                            <img data-src="images/ad2.webp" alt="AC Dimmer Circuit 2" class="project-image lazy-image">
+                            <video controls class="project-video lazy-video" data-src="images/ad3.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Automatic Street Light</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/as1.webp" alt="Automatic Street Light" class="project-image lazy-image">
+                            <video controls class="project-video lazy-video" data-src="images/as2.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Fire Fighting Robot</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/ff1.webp" alt="Fire Fighting Robot 1" class="project-image lazy-image">
+                            <img data-src="images/ff2.webp" alt="Fire Fighting Robot 2" class="project-image lazy-image">
+                            <video controls class="project-video lazy-video" data-src="images/ff3.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Smart Door Lock</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <video controls class="project-video lazy-video" data-src="images/dl1.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Pure Sinewave Inverter with Solar Charging</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/in1.webp" alt="Solar Inverter 1" class="project-image lazy-image">
+                            <img data-src="images/in2.webp" alt="Solar Inverter 2" class="project-image lazy-image">
+                            <video controls class="project-video lazy-video" data-src="images/in3.mp4" preload="none">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 11 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Circuit Design and Fabrication</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/cd1.webp" alt="Circuit Design 1" class="project-image lazy-image">
+                            <img data-src="images/cd2.webp" alt="Circuit Design 2" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 12 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Line Follower Robot</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/lf1.webp" alt="Line Follower Robot 1" class="project-image lazy-image">
+                            <img data-src="images/lf2.webp" alt="Line Follower Robot 2" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 13 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">RC Plane</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/rc1.webp" alt="RC Plane" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 14 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Paralyzed Patient Assist Robot</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/pp1.webp" alt="Patient Assist Robot" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 15 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">3D Design and Printing</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/3d1.webp" alt="3D Design 1" class="project-image lazy-image">
+                            <img data-src="images/3d2.webp" alt="3D Design 2" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 16 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">IoT-Based Home Security</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/hs1.webp" alt="Home Security System" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 17 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">DIY Portable Bluetooth Speaker</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/bs1.webp" alt="Bluetooth Speaker 1" class="project-image lazy-image">
+                            <img data-src="images/bs2.webp" alt="Bluetooth Speaker 2" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 18 -->
+                <div class="project-card">
+                    <div class="project-header" onclick="toggleProject(this)">
+                        <h3 class="project-title">Soccer Playing Robot</h3>
+                        <span class="project-toggle">+</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-description" style="display: none;">
+                            <!-- Add project description here later -->
+                        </div>
+                        <div class="project-media">
+                            <img data-src="images/rs1.webp" alt="Soccer Playing Robot" class="project-image lazy-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-minimal">
+        <div class="container">
+            <p class="footer-copyright">© 2024, Nazmur Rahman Emon</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
